@@ -1,1 +1,30 @@
-credenciais.json 
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Arquivos de configuração/segredos
+.env
+credenciais.json
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# Distribuição / Build
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
